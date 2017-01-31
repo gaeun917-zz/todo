@@ -36,6 +36,17 @@
 
 // 모듈 사이의 의존선을 설정해야 사용할 수 있음 -> 아래의 module에 angular-ui-sortable 추가
 // todo.html파일에서 <div 안에서  ui-sortable 설정함
+// 단위 테스트 러너 :karma
+
+//의존성 주입, html template, plain old javascript object model
+//$scope 객체로 데이터 참조
+//주입방식; 1.  파라미터 2. $inject: controller.$inject 3. 파라미터 배열
+
+// 여기서 view(templateUrl, html, dom, ng-model='todo')- controller 연결 시켜주는 routing
+//ngRoute module 사용하면 $routeProvider 사용할 수 있음!!
+
+
+
 
 
 

@@ -8,7 +8,7 @@ describe('Service: todoService', function () {
   // instantiate service
   var todoService;
   beforeEach(inject(function (_todoService_) {
-    todoService = _todoService_;
+    todoService = _todoService_; // 서비스르 주입받아 테스를 위한 용도임을 명시
   }));
 
   it('should todos', function () {

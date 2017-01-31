@@ -4,18 +4,18 @@ exports.config = {
   // 기존 chromeDriver: '../selenium/chromedriver',
   chromeDriver: '../node_modules/protractor/selenium/chromedriver',
 
-  // 만일 Selenium Standalone sever 테스트 를 원하면 
-  // chromeOnly와 chromeDriver 주석처리. 
+  // 만일 Selenium Standalone sever 테스트 를 원하면
+  // chromeOnly와 chromeDriver 주석처리.
   // ./node_modules/protractor/bin/webdriver-manager start
   //seleniumAddress: 'http://0.0.0.0:4444/wd/hub',
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-    'browserName': 'chrome',
-    'chromeOptions': {'args': ['--disable-extensions']}
+                  'browserName': 'chrome',
+                  'chromeOptions': {'args': ['--disable-extensions']}
   },
 
-  // e2e 테스트 코드 위치 
+  // e2e 테스트 코드 위치
   // 기존 specs: ['example_spec.js'],
   specs: ['e2e/**/*.js'],
 
@@ -23,9 +23,9 @@ exports.config = {
   // with relative paths will be prepended with this.
   baseUrl: 'http://localhost:9000',
 
-  // Jasmine 옵션 
+  // Jasmine 옵션
   jasmineNodeOpts: {
-    showColors: true,
-    defaultTimeoutInterval: 30000
+                    showColors: true,
+                    defaultTimeoutInterval: 30000
   }
 };

@@ -439,7 +439,6 @@ module.exports = function (grunt) {
       'postcss:server',
       'connect:livereload',
       'watch'
-      ''
     ]);
   });
 

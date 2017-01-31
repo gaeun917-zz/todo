@@ -3,6 +3,7 @@
 // Generated on 2014-07-14 using
 // generator-karma 0.8.3
 
+
 module.exports = function(config) {
   'use strict';
 
@@ -15,10 +16,6 @@ module.exports = function(config) {
 
     // testing framework to use (jasmine/mocha/qunit/...)
     frameworks: ['jasmine'],
-
-
-
-    // bower install 할떄 index.html에 추가되는 것처럼, karma에도 자동 추가됨
 
     // list of files / patterns to load in the browser
     files: [

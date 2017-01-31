@@ -33,6 +33,7 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
+    "karma-ng-html2js-preprocessor": "^1.0.0",
     "yo": "^1.8.5"
   }
 }
